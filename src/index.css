@@ -63,3 +63,17 @@ body {
     width: 100%;
     height:575px; 
 }
+
+.btn--primary {
+	@apply bg-red-600 text-white rounded-md px-8 py-2 capitalize text-lg font-medium hover:bg-red-800 focus:bg-red-800;
+}
+
+.btn--secondary{
+	@apply bg-transparent text-white rounded-md px-8 py-2 capitalize text-lg font-medium hover:bg-black hover:text-white focus:bg-black;
+}
+
+@media screen and (max-width: 34.375em) {
+	html {
+		font-size: 65%;
+	}
+}

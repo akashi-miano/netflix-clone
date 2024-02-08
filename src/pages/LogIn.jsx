@@ -19,11 +19,11 @@ const LogIn = () => {
     }
   };
   return (
-    <section className="min-h-screen  bg-signUpBg bg-cover bg-no-repeat flex justify-center items-center">
-      <div className="absolute insert-0 bg-gradient-to-b from-black/50 to-black/50 h-full w-full"></div>
+    <section className="min-h-[800px] bg-signUpBg bg-cover bg-no-repeat flex justify-center items-center">
+      <div className="absolute insert-0 bg-gradient-to-b from-black/50 to-black/50 h-[800px] w-full"></div>
       <form
         action=""
-        className="relative z-[1] flow-content--m bg-[#000000b2] min-w-[450px] p-6 min-h-[450px] px-[2rem] py-[2.5rem] text-white"
+        className="relative z-[1] flow-content--m bg-[#000000b2] md:min-w-[450px] md:p-6 p-2 min-h-[450px] px-[2rem] py-[2.5rem] text-white mx-6"
         onSubmit={handleSubmit}
       >
         <div className="container">
